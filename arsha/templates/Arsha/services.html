@@ -1,0 +1,68 @@
+{% extends 'arsha/base.html' %}
+{% load static %}
+
+{% block title %}Services - Arsha{% endblock %}
+{% block body_class %}services-page{% endblock %}
+{% block nav_services %}active{% endblock %}
+
+{% block content %}
+  <main class="main">
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+      <img src="{% static 'images/img/bg/bg-8.webp' %}" alt="">
+      <div class="container">
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Call To Action</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Call To Action Section -->
+
+  </main>
+{% endblock %}

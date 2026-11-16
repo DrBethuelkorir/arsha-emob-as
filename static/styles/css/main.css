@@ -3575,3 +3575,32 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+.dashboard-login-page .login-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, .3);
+}
+.dashboard-login-page .login-card h2 {
+  color: #37517e;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.dashboard-login-page .login-card p {
+  color: #6c757d;
+  margin-bottom: 24px;
+}
+.dashboard-login-page .login-card .form-control {
+  padding: 12px 15px;
+  border-radius: 8px;
+}
+.dashboard-login-page .login-card .btn {
+  background: #47b2e4;
+  border: none;
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.dashboard-login-page .login-card .btn:hover {
+  background: #209dd8;
+}
